@@ -1,0 +1,37 @@
+/* src/App.css */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.app-container.light {
+  background-color: #f0f0f0;
+  color: #000;
+}
+
+.app-container.dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.toggle-button {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.toggle-button.light {
+  background-color: #333;
+  color: #fff;
+}
+
+.toggle-button.dark {
+  background-color: #f0f0f0;
+  color: #000;
+}
